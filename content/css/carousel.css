@@ -1,0 +1,43 @@
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    color: white;
+    border: none;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
+  
+  
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: white;
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  
+  .custom-prev {
+    left: 15px; 
+  }
+  
+  
+  .custom-next {
+    right: 15px; 
+  }
+  
+  
+  .carousel-control-prev::after, .carousel-control-next::after {
+    display: none; 
+  }
+  

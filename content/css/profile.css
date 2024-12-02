@@ -1,0 +1,151 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #010203;
+    color: #333;
+  }
+  
+ 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #0077b6, #0096c7);
+    padding: 15px 30px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .logo img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-links a:hover {
+    color: #90e0ef;
+  }
+
+  .profile-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #0096c7;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .user-role {
+    color: #555;
+    font-style: italic;
+    margin: 5px 0;
+  }
+  
+  .profile-header h1 {
+    font-size: 2rem;
+    color: #0077b6;
+  }
+  
+  .profile-stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+  
+  .stat-box {
+    text-align: center;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  .stat-box h3 {
+    color: #0077b6;
+    font-size: 1.2rem;
+  }
+  
+  .stat-box p {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .achievements, .upcoming-matches {
+    margin: 30px 0;
+  }
+  
+  .achievements h2, .upcoming-matches h2 {
+    font-size: 1.8rem;
+    color: #0077b6;
+    border-bottom: 2px solid #0096c7;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .achievements ul, .upcoming-matches ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .achievements li, .upcoming-matches li {
+    margin: 10px 0;
+    color: #555;
+    font-size: 1rem;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .edit-profile {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .edit-profile .btn {
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .edit-profile .btn:hover {
+    background-color: #005f8d;
+  }
+  
